@@ -96,6 +96,10 @@ p{
   border-radius: 10rpx;
   color: rgba(0, 0, 0, 0.3)
 }
-.btns{
-  color: #fff;
+.van-button--info{
+  background: #36a8fe!important;
+  border: 0!important;
+}
+.van-button{
+  border-radius: 10rpx!important;
 }
