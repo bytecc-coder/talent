@@ -61,6 +61,27 @@
 </van-panel>
 <div class="jobs">
   <ul>
+     <li>
+      <div class="first">
+        <h2 class="job_title">高级培训师</h2>
+        <p class="salary">10-12万</p>
+      </div>
+      <div class="stander">
+        <p class="address">广州-天河区</p>
+        <p class="degree">本科及以上</p>
+        <p class="experience">经验不限</p>
+      </div>
+      <div class ="third">
+        <div class="tags">
+          <p>带薪晋升</p>
+          <p>绩效资金</p
+          ><p>带薪年假</p>
+        </div>
+        <div class="btns">
+          <button>了解详情</button>
+        </div>
+      </div>
+    </li>
     <li>
       <div class="first">
         <h2 class="job_title">高级培训师</h2>
@@ -74,15 +95,15 @@
       <div class ="third">
         <div class="tags">
           <p>带薪晋升</p>
-          <p>绩效资金</p>
-          <p>带薪年假</p>
+          <p>绩效资金</p
+          ><p>带薪年假</p>
         </div>
         <div class="btns">
-          <van-button  size="small" type="info">了解详情</van-button>
+          <button>了解详情</button>
         </div>
       </div>
     </li>
-     <li>
+    <li>
       <div class="first">
         <h2 class="job_title">高级培训师</h2>
         <p class="salary">10-12万</p>
@@ -99,11 +120,11 @@
           ><p>带薪年假</p>
         </div>
         <div class="btns">
-          <van-button  size="small" type="info">了解详情</van-button>
+          <button>了解详情</button>
         </div>
       </div>
     </li>
-     <li>
+    <li>
       <div class="first">
         <h2 class="job_title">高级培训师</h2>
         <p class="salary">10-12万</p>
@@ -120,49 +141,7 @@
           ><p>带薪年假</p>
         </div>
         <div class="btns">
-          <van-button  size="small" type="info">了解详情</van-button>
-        </div>
-      </div>
-    </li>
-     <li>
-      <div class="first">
-        <h2 class="job_title">高级培训师</h2>
-        <p class="salary">10-12万</p>
-      </div>
-      <div class="stander">
-        <p class="address">广州-天河区</p>
-        <p class="degree">本科及以上</p>
-        <p class="experience">经验不限</p>
-      </div>
-      <div class ="third">
-        <div class="tags">
-          <p>带薪晋升</p>
-          <p>绩效资金</p
-          ><p>带薪年假</p>
-        </div>
-        <div class="btns">
-          <van-button  size="small" type="info">了解详情</van-button>
-        </div>
-      </div>
-    </li>
-     <li>
-      <div class="first">
-        <h2 class="job_title">高级培训师</h2>
-        <p class="salary">10-12万</p>
-      </div>
-      <div class="stander">
-        <p class="address">广州-天河区</p>
-        <p class="degree">本科及以上</p>
-        <p class="experience">经验不限</p>
-      </div>
-      <div class ="third">
-        <div class="tags">
-          <p>带薪晋升</p>
-          <p>绩效资金</p
-          ><p>带薪年假</p>
-        </div>
-        <div class="btns">
-          <van-button  size="small" type="info">了解详情</van-button>
+          <button>了解详情</button>
         </div>
       </div>
     </li>

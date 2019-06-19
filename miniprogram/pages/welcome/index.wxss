@@ -199,15 +199,20 @@ p{
   height: 60rpx;
   display: flex;
   flex-wrap: nowrap;
+  flex-direction: row;
   justify-content: flex-end;
 }
-.van-button--info{
+.btns button{
+  display: block;
+  color: #ffffff;
+  font-size: 24rpx;
   background: #36a8fe!important;
   border-top-right-radius: 6rpx;
   border-bottom-left-radius: 6rpx;
   border-top-left-radius: 6rpx;
   border-bottom-right-radius: 6rpx;
   border: 0!important;
+  margin-right: 0rpx;
 }
 .salary{
   font-size: 28rpx;
