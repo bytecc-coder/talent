@@ -15,13 +15,12 @@ p{
 .jobs ul{
   width: 100%;
   height: auto;
-  margin-top: 20rpx;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 .jobs li{
-  width: 92%;
+  width: 94%;
   height: 200rpx;
   position: relative;
   right: 0;
@@ -33,6 +32,9 @@ p{
   justify-content: space-around;
   background: #fff;
   text-align: center;
+}
+.jobs > ul > li:first-child{
+  margin-top: unset!important;
 }
 .first{
   width: 100%;
