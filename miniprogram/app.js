@@ -1,3 +1,4 @@
+//更新测试
 //app.js
 App({
   onLaunch: function () {

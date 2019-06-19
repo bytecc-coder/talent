@@ -1,5 +1,6 @@
 {
   "usingComponents": {
+    "van-card": "/vant-weapp/dist/card/index",
     "van-button": "vant-weapp/dist/button/index",
     "van-row": "vant-weapp/dist/row/index",
     "van-col": "vant-weapp/dist/col/index"
