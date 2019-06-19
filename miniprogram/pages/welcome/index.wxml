@@ -28,4 +28,5 @@
     </view>
   </picker>
 </view>
-<van-button type="primary">按钮</van-button>
+
+<van-button send-message-path="" type="primary"  >按钮</van-button>
