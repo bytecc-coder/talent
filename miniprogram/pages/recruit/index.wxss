@@ -1,0 +1,101 @@
+/* pages/recruit/index.wxss */
+page{
+  background-color: #F4F4F4;
+  list-style: none;
+}
+p{
+  font-size: 30rpx;
+  text-align: center;
+  letter-spacing: 1rpx;
+}
+.jobs{
+  width: 100%;
+  height: auto;
+}
+.jobs ul{
+  width: 100%;
+  height: auto;
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.jobs li{
+  width: 92%;
+  height: 200rpx;
+  position: relative;
+  right: 0;
+  left: 0;
+  margin:20rpx auto;
+  padding: 0 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: #fff;
+  text-align: center;
+}
+.first{
+  width: 100%;
+  height: 60rpx;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.stander{
+  width: 80%;
+  height: 50rpx;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.third{
+  width: 100%;
+  height: 90rpx;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.tags{
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.btns{
+  width: 35%;
+  height: 60rpx;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.salary{
+  font-size: 28rpx;
+  color: #3A82F8;
+  
+}
+.job_title{
+  font-size: 30rpx;
+  color: rgba(0, 0, 0, 0.7);
+}
+.stander p{
+  font-size: 26rpx;
+  color:  rgba(0, 0, 0, 0.5);
+}
+.tags p{
+  display: block;
+  height: 30rpx;
+  line-height: 26rpx;
+  padding: 10rpx;
+  background: #EDEDED;
+  font-size: 26rpx;
+  border-radius: 10rpx;
+  color: rgba(0, 0, 0, 0.3)
+}
+.btns{
+  color: #fff;
+}
