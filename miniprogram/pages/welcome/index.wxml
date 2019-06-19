@@ -8,19 +8,170 @@
 </swiper>
 <van-row class="row-model">
   <van-col span="6">
-  <button class='four-img'> 
-      <image src='/images/company.png'></image>
-  </button>
-     
-  <view>知名企业</view>
- 
+    <view class='four-img'> 
+        <image src='/images/company.png'></image>
+    </view>
+    <view>知名企业</view>
   </van-col>
-  <van-col span="6">高薪</van-col>
-  <van-col span="6">高福利</van-col>
-  <van-col span="6">实习</van-col>
+  <van-col span="6">
+    <view class='four-img'> 
+        <image src='/images/salary.png'></image>
+    </view>
+    <view>高薪</view>
+  </van-col>
+  <van-col span="6">
+    <view class='four-img'> 
+        <image src='/images/welfare.png'></image>
+    </view>
+    <view>高福利</view>
+  </van-col>
+   <van-col span="6">
+    <view class='four-img'> 
+        <image src='/images/Internship.png'></image>
+    </view>
+    <view>实习</view>
+  </van-col>
 </van-row>
+<van-panel class="panel-first header-class" title="专业靠谱的灵活用工平台" desc="专业审核团队，靠谱职业担保" >
+</van-panel>
+<div class="promise">
+    <div class="promise-left">
+    <span>职位专业团队审核认证</span>
+    <p>资质认证，安全放心</p>
+    <div><image src='/images/team.png'></image></div>
+    </div>
+    <div class="promise-right">
+        <div>
+            <div>
+               <span>直招职位</span>
+               <p>全程介入督导</p>
+            </div>
+            <image src='/images/position.png'></image>
+        </div>
+         <div>
+            <div>
+               <span>工资保障</span>
+               <p>承诺先行赔付</p>
+            </div>
+            <image src='/images/wages.png'></image>
+        </div>
+    </div>
+</div>
+<van-panel title="招聘服务" desc="各类工作，自由选择，放心上岗">
+</van-panel>
+<div class="jobs">
+  <ul>
+    <li>
+      <div class="first">
+        <h2 class="job_title">高级培训师</h2>
+        <p class="salary">10-12万</p>
+      </div>
+      <div class="stander">
+        <p class="address">广州-天河区</p>
+        <p class="degree">本科及以上</p>
+        <p class="experience">经验不限</p>
+      </div>
+      <div class ="third">
+        <div class="tags">
+          <p>带薪晋升</p>
+          <p>绩效资金</p>
+          <p>带薪年假</p>
+        </div>
+        <div class="btns">
+          <van-button  size="small" type="info">了解详情</van-button>
+        </div>
+      </div>
+    </li>
+     <li>
+      <div class="first">
+        <h2 class="job_title">高级培训师</h2>
+        <p class="salary">10-12万</p>
+      </div>
+      <div class="stander">
+        <p class="address">广州-天河区</p>
+        <p class="degree">本科及以上</p>
+        <p class="experience">经验不限</p>
+      </div>
+      <div class ="third">
+        <div class="tags">
+          <p>带薪晋升</p>
+          <p>绩效资金</p
+          ><p>带薪年假</p>
+        </div>
+        <div class="btns">
+          <van-button  size="small" type="info">了解详情</van-button>
+        </div>
+      </div>
+    </li>
+     <li>
+      <div class="first">
+        <h2 class="job_title">高级培训师</h2>
+        <p class="salary">10-12万</p>
+      </div>
+      <div class="stander">
+        <p class="address">广州-天河区</p>
+        <p class="degree">本科及以上</p>
+        <p class="experience">经验不限</p>
+      </div>
+      <div class ="third">
+        <div class="tags">
+          <p>带薪晋升</p>
+          <p>绩效资金</p
+          ><p>带薪年假</p>
+        </div>
+        <div class="btns">
+          <van-button  size="small" type="info">了解详情</van-button>
+        </div>
+      </div>
+    </li>
+     <li>
+      <div class="first">
+        <h2 class="job_title">高级培训师</h2>
+        <p class="salary">10-12万</p>
+      </div>
+      <div class="stander">
+        <p class="address">广州-天河区</p>
+        <p class="degree">本科及以上</p>
+        <p class="experience">经验不限</p>
+      </div>
+      <div class ="third">
+        <div class="tags">
+          <p>带薪晋升</p>
+          <p>绩效资金</p
+          ><p>带薪年假</p>
+        </div>
+        <div class="btns">
+          <van-button  size="small" type="info">了解详情</van-button>
+        </div>
+      </div>
+    </li>
+     <li>
+      <div class="first">
+        <h2 class="job_title">高级培训师</h2>
+        <p class="salary">10-12万</p>
+      </div>
+      <div class="stander">
+        <p class="address">广州-天河区</p>
+        <p class="degree">本科及以上</p>
+        <p class="experience">经验不限</p>
+      </div>
+      <div class ="third">
+        <div class="tags">
+          <p>带薪晋升</p>
+          <p>绩效资金</p
+          ><p>带薪年假</p>
+        </div>
+        <div class="btns">
+          <van-button  size="small" type="info">了解详情</van-button>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
 
-<view class="section">
+
+
+<!-- <view class="section">
   <view class="section__title">省市区选择器</view>
   <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
     <view class="picker">
@@ -28,4 +179,4 @@
     </view>
   </picker>
 </view>
-<van-button type="primary">按钮</van-button>
+<van-button type="primary">按钮</van-button> -->
