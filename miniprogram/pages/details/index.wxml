@@ -1,0 +1,25 @@
+<div class="continer">
+  <div class="message">
+      <i>岗位要求</i>
+      <ol>
+          <li>熟练掌握HTML、CSS、Javascript</li>
+          <li>具备PC、无线端开发能力，能够熟练使用常见的网页适配方法</li>
+          <li>至少掌握一种主流框架（React、Angular或Vue，并且有实战项目经验</li>
+          <li>掌握前端常见的性能优化方法</li>
+          <li>熟练使用团队协作工具</li>
+          <li>具备良好的团队协作习惯</li>
+          <li>本科学历，计算机相关专业</li>
+      </ol>
+      <i>加分项</i>
+      <ol>
+          <li>熟练掌握HTML、CSS、Javascript</li>
+          <li>具备PC、无线端开发能力，能够熟练使用常见的网页适配方法</li>
+          <li>至少掌握一种主流框架（React、Angular或Vue，并且有实战项目经验</li>
+          <li>掌握前端常见的性能优化方法</li>
+          <li>熟练使用团队协作工具</li>
+          <li>具备良好的团队协作习惯</li>
+          <li>本科学历，计算机相关专业</li>
+      </ol>
+  </div>
+  <button>递交简历</button>
+</div>

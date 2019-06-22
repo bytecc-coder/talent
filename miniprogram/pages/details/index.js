@@ -1,28 +1,11 @@
-// pages/welcome/index.js
+// pages/details/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    date: '2016-09-01',
-    time: '12:01',
-    region: ['江苏省', '常州市', '金坛区'],
-    imgUrls: [
-      '/images/banner-1.jpg',
-      'https://images.unsplash.com/photo-1551214012-84f95e060dee?w=640',
-      'https://images.unsplash.com/photo-1551446591-142875a901a1?w=640'
-    ],
-    indicatorDots: true,
-    autoplay: true,
-    interval: 5000,
-    duration: 1000
-  },
-  // 绑定地区选择事件
-  bindRegionChange: function (e) {
-    this.setData({
-      region: e.detail.value
-    })
+
   },
 
   /**
@@ -44,11 +27,6 @@ Page({
    */
   onShow: function () {
 
-  },
-  go:function(){
-    wx.navigateTo({
-      url: '/pages/details/index'　
-    })
   },
 
   /**

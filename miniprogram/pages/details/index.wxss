@@ -1,0 +1,42 @@
+.continer{
+  display: block;
+  padding-top: 40rpx;
+}
+.message{
+  display: block;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  padding-top:20rpx;
+  border: 2rpx dotted #000000;
+  margin-bottom:20rpx; 
+}
+.message>i{
+  display: block;
+  font-size: 34rpx;
+  font-weight: bold;
+  margin-left:10rpx; 
+}
+.message>ol{
+  display: block;
+  padding-top:20rpx;
+  padding-bottom:20rpx;
+  padding-left: 10rpx;
+}
+.message>ol>li{
+  display: block;
+  margin: 20rpx 20rpx;
+  font-size:24rpx; 
+  
+}
+button{
+  display: block;
+  color: #ffffff;
+  font-size: 24rpx;
+  background: #36a8fe;
+  border-top-right-radius: 6rpx;
+  border-bottom-left-radius: 6rpx;
+  border-top-left-radius: 6rpx;
+  border-bottom-right-radius: 6rpx;
+  border: 0;
+  margin: 0rpx 20rpx;
+}

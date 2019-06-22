@@ -78,7 +78,7 @@
           ><p>带薪年假</p>
         </div>
         <div class="btns">
-          <button>了解详情</button>
+          <button bindtap="go">了解详情</button>
         </div>
       </div>
     </li>
