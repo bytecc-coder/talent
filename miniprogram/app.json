@@ -4,6 +4,7 @@
    "pages/company/index",
    "pages/personal/index",
    "pages/recruit/index"
+
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
