@@ -1,4 +1,5 @@
-// pages/personal/index.js
+//index.js
+// pages/recruit/index.js
 Page({
 
   /**
@@ -7,6 +8,7 @@ Page({
   data: {
 
   },
+
 
   /**
    * 生命周期函数--监听页面加载
