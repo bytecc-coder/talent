@@ -1,10 +1,12 @@
 {
   "pages": [
+    "pages/start/start",
    "pages/welcome/index",
    "pages/company/index",
    "pages/personal/index",
    "pages/recruit/index",
-   "pages/details/index"
+   "pages/details/index",
+   "pages/release/index"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
