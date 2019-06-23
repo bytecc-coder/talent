@@ -140,7 +140,7 @@ p{
   padding: 20rpx;
   margin-top: 30rpx;
   border-radius: 10rpx;
-  background: #3D83F3;
+  background: #36A8FE;
 }
 
 .upline{
@@ -211,4 +211,7 @@ p{
 .img_tabs image{
   width:100%;
   height: 100%;
+}
+.van-button--info{
+  background-color: #36A8FE!important;
 }
