@@ -1,4 +1,6 @@
 <!--index.wxml-->
+
+<image class="top_background" src="/images/more/background.jpg"></image>
 <div class="top_Img">
   <image src="/images/personal/thumb.jpg"></image>
 </div>
@@ -30,8 +32,4 @@
       </div>
     </li>
   </ul>
-</div>
-
-<div class="bottom_info">
-  <p>底部信息</p>
 </div>

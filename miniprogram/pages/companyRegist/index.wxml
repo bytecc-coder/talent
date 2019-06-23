@@ -1,0 +1,16 @@
+<!--pages/companyRegist/index.wxml-->
+<div class="regist_tab">
+ <div class="title">
+        <p>注册账户</p>
+  </div>
+  <ul>
+    <li>
+      <div class="item">
+        <p>公司名称:</p>
+      </div>
+      <div class="input_tab">
+        <input type="text" name="name" placeholder="请输入公司名称"></input>
+      </div>
+    </li>
+  </ul>
+</div>
