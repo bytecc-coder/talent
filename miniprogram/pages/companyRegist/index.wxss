@@ -4,8 +4,8 @@ p{
 }
 
 .title{
-  display: block;
   width: 100%;
+  margin: 20rpx auto;
   display: flex;
   justify-content: center;
 }
@@ -16,40 +16,90 @@ p{
 }
 .regist_tab ul{
   width: 90%;
+  margin: 10rpx auto;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
 .regist_tab li{
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  height: 100rpx;
+  justify-content: center;
+  align-items: center;
 }
 .item{
   display: flex;
   width: 40%;
-  justify-content: center
+  height: 100rpx;
+  justify-content: center;
+  align-items: center;
 }
 .item p{
   display: block;
+  font-size: 36rpx;
   text-align: center;
   letter-spacing: 5rpx;
 }
 
 .input_tab{
   width: 60%;
+  height: 100rpx;
   display: flex;
-  justify-content: center;
-  align-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
 .input_tab input{
-  width: 90%;
-  height: 50rpx;
-  border-radius: 20rpx;
+  display: block;
+  font-size: 32rpx;
+  width: 100%;
+  height: 80rpx;
+  border-radius: 5rpx;
   outline: none;
+  padding-left: 12rpx;
   border: 1rpx solid #36A8FE;
 }
-.input_tab input::-webkit-input-placeholder{
-  font-size: 30rpx;
-  color: rgba(0,0,0,0.05);
+li:nth-child(4) .input_tab input{
+  width: 50%;
+}
+li:nth-child(5) .input_tab input{
+  width: 50%;
+}
+.getcode{
+  display: block;
+  width: 50%;
+}
+.getcode button{
+  display: block;
+  width: 90%;
+  height: 80rpx;
+  padding: 0 5rpx;
+  background-color: rgba(0,0,0,0.06);
+  font-size: 28rpx;
+}
+
+.placeholderStyle{
+  font-size: 26rpx;
+  color: rgba(0,0,0,0.5);
+}
+
+.submit{
+  width: 100%;
+  height: 100%;
+}
+.submit button{
+  width: 90%;
+  height: 80%;
+  border-radius: 30rpx;
+  border: 2px solid #36A8FE;
+  color: #36A8FE;
+  font-size: 32rpx;
+  line-height: 64rpx;
+}
+.agree{
+  display: flex;
+  align-items: center;
+  width: 80rpx;
+  height: 80rpx;
 }

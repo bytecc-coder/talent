@@ -8,7 +8,17 @@ Page({
   data: {
 
   },
+companyRegist:function(){
+  wx.navigateTo({
+    url: '/pages/companyRegist/index',
+  })
+},
 
+personalRegist: function () {
+  wx.navigateTo({
+    url: '/pages/personalRegist/index',
+  })
+},
 
   /**
    * 生命周期函数--监听页面加载
