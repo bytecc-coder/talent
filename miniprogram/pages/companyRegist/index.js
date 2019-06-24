@@ -1,25 +1,52 @@
 // pages/companyRegist/index.js
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    imgs:[],
   },
+ 
+ chooseImg:function(){
+   var _this = this;
+   wx.chooseImage({
+     count:3,
+     sizeType:['original','compressed'],
+     sourceType: ['album', 'camera'],
+     success: function(res) {
+       var tempFilePaths=res.tempFilePaths;
+       _this.setData({
+        imgs:tempFilePaths
+       });
+       console.log(tempFilePaths)
+     },
+   })
+ },
 
+ previewImg:function(e){
+   var current = e.target.dataset.src;
+   wx.previewImage({
+     urls:this.data.imgs,
+     current:current,
+     success:function(e){
+       console.log('预览成功');
+     }
+   });
+ },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-
+    
   },
 
   /**
