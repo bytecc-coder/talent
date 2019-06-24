@@ -5,20 +5,6 @@ Page({
    * 页面的初始数据
    */
   data: {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    // imgUrls: [
-    //   '/images/banner-1.jpg',
-    //   'https://images.unsplash.com/photo-1551214012-84f95e060dee?w=640',
-    //   'https://images.unsplash.com/photo-1551446591-142875a901a1?w=640'
-    // ],
-    
-=======
-
->>>>>>> 3fabdfb0a35c1cc84e2d9324caced6fdb80ffce7
-=======
-
->>>>>>> 3fabdfb0a35c1cc84e2d9324caced6fdb80ffce7
   },
 
   /**
@@ -28,20 +14,11 @@ Page({
 
   },
 
-<<<<<<< HEAD
-<<<<<<< HEAD
   go:function(){
     wx.navigateTo({
       url: '/pages/release/index',
     })
   },
-=======
-
->>>>>>> 3fabdfb0a35c1cc84e2d9324caced6fdb80ffce7
-=======
-
->>>>>>> 3fabdfb0a35c1cc84e2d9324caced6fdb80ffce7
-
 
   /**
    * 生命周期函数--监听页面初次渲染完成

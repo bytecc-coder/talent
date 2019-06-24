@@ -111,7 +111,7 @@
   <p class="mid_content">想进一步了解？省下您的信息我们将尽快联系您</p>
 </div>
 <div class="pbs_btn">
-  <view>
+  <view bindtap="go">
     <van-button primary type="info" class='btn'>发布招聘信息</van-button>
   </view>
 </div>
