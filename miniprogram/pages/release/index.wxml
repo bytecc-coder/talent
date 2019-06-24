@@ -1,2 +1,53 @@
+<<<<<<< HEAD
+<div>
+    <van-cell-group>
+      <van-field
+        value="{{ postname }}"
+        required
+        clearable
+        label="岗位名称"
+        placeholder="请输入招聘的岗位名称"
+        bind:click-icon="onClickIcon"
+      />
+
+    <van-field
+        value="{{ postnum }}"
+        required
+        clearable
+        label="招聘人数"
+        placeholder="请输入招聘人数"
+        type="number"
+        bind:click-icon="onClickIcon"
+      />
+      <van-field
+        value="{{ postname }}"
+        required
+        clearable
+        label="学历要求"
+        placeholder="请输入学历要求"
+        bind:click-icon="onClickIcon"
+      />
+      <van-field
+        value="{{ postname }}"
+        required
+        clearable
+        label="经验要求"
+        placeholder="请输入经验要求"
+        bind:click-icon="onClickIcon"
+      />
+      <van-field
+        value="{{ postname }}"
+        required
+        clearable
+        label="薪资"
+        placeholder="请输入薪资范围"
+        bind:click-icon="onClickIcon"
+      />
+       
+
+    </van-cell-group>
+</div>
+=======
 <!--pages/release/index.wxml-->
 <text>pages/release/index.wxml</text>
+>>>>>>> 3fabdfb0a35c1cc84e2d9324caced6fdb80ffce7
