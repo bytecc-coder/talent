@@ -72,9 +72,9 @@ page{
 .smalltitle{
   position: absolute;
   top: 80rpx;
-  left: 50%;
-  width: 600rpx;
-  height: 100rpx;
+  left: 44%;
+  width: 700rpx;
+  height: 120rpx;
   margin-left: -300rpx;
   opacity: 0;
   animation: show 2.5s cubic-bezier(0.19, 1, 0.22, 1) .5s forwards;

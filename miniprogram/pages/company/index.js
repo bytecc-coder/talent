@@ -5,12 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    imgUrls: [
-      '/images/banner-1.jpg',
-      'https://images.unsplash.com/photo-1551214012-84f95e060dee?w=640',
-      'https://images.unsplash.com/photo-1551446591-142875a901a1?w=640'
-    ],
-    
+
   },
 
   /**
@@ -20,11 +15,7 @@ Page({
 
   },
 
-  go:function(){
-    wx.navigateTo({
-      url: '/pages/recruit/index',
-    })
-  },
+
 
 
   /**

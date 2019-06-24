@@ -8,6 +8,13 @@ Page({
   data: {
 
   },
+myjob:function(){
+  wx.navigateTo({
+    url: '/pages/recruit/index',
+  })
+},
+
+
 companyRegist:function(){
   wx.navigateTo({
     url: '/pages/companyRegist/index',

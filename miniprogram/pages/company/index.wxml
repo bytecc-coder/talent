@@ -106,12 +106,12 @@
 </div>
 
 
-<div  class="mid_items">
+<div class="mid_items">
   <p class="mid_title">从现在开始让我们祝您一臂之力</p>
   <p class="mid_content">想进一步了解？省下您的信息我们将尽快联系您</p>
 </div>
-<div  class="pbs_btn">
-  <view  bindtap='go'>
+<div class="pbs_btn">
+  <view>
     <van-button primary type="info" class='btn'>发布招聘信息</van-button>
   </view>
 </div>
