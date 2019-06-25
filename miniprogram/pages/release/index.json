@@ -1,10 +1,9 @@
 {
-<<<<<<< HEAD
   "usingComponents": {
-      "van-field": "vant-weapp/dist/field/index"
+      "van-field": "vant-weapp/dist/field/index",
+      "van-area": "vant-weapp/dist/area/index",
+      "van-checkbox": "vant-weapp/dist/checkbox/index",
+      "van-checkbox-group": "vant-weapp/dist/checkbox-group/index"
   },
   "navigationBarTitleText": "发布招聘信息"
-=======
-  "usingComponents": {}
->>>>>>> 3fabdfb0a35c1cc84e2d9324caced6fdb80ffce7
 }

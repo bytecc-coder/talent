@@ -112,6 +112,6 @@
 </div>
 <div class="pbs_btn">
   <view>
-    <van-button primary type="info" class='btn'>发布招聘信息</van-button>
+    <van-button primary type="info" class='btn' bindtap='go' >发布招聘信息</van-button>
   </view>
 </div>
