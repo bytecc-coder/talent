@@ -82,7 +82,7 @@
         </div>
       </div>
     </li>
-     <li>
+    <li>
       <div class="first">
         <h2 class="job_title">高级培训师</h2>
         <p class="salary">10-12万</p>
@@ -99,11 +99,11 @@
           ><p>带薪年假</p>
         </div>
         <div class="btns">
-          <button bindtap="go">了解详情</button>
+          <button>了解详情</button>
         </div>
       </div>
     </li>
-     <li>
+    <li>
       <div class="first">
         <h2 class="job_title">高级培训师</h2>
         <p class="salary">10-12万</p>
@@ -120,11 +120,11 @@
           ><p>带薪年假</p>
         </div>
         <div class="btns">
-          <button bindtap="go">了解详情</button>
+          <button>了解详情</button>
         </div>
       </div>
     </li>
-     <li>
+    <li>
       <div class="first">
         <h2 class="job_title">高级培训师</h2>
         <p class="salary">10-12万</p>
@@ -141,11 +141,10 @@
           ><p>带薪年假</p>
         </div>
         <div class="btns">
-          <button bindtap="go">了解详情</button>
+          <button>了解详情</button>
         </div>
       </div>
     </li>
-
   </ul>
 </div>
 

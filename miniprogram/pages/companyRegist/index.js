@@ -6,7 +6,6 @@ Page({
    * 页面的初始数据
    */
   data: {
-<<<<<<< HEAD
     imgs: [],
     opacity: 1
   },
@@ -48,49 +47,6 @@ Page({
       opacity = 0;
     }
   },
-=======
-    imgs:[],
-    opacity: 1
-  },
- 
- chooseImg:function(){
-   var imgs = this.data.imgs;
-   var opacity = this.data.opacity;
-   var _this = this;
-   if(imgs.length==4){
-     return;
-   }
-   wx.chooseImage({
-     count:4-imgs.length,
-     sizeType:['original','compressed'],
-     sourceType: ['album', 'camera'],
-     success: function(res) {
-      var tempFilePaths=res.tempFilePaths;
-       imgs = imgs.concat(tempFilePaths);
-       _this.setData({
-        imgs:imgs
-       });
-     },
-   })
- },
-
- previewImg:function(e){
-   var current = e.target.dataset.src;
-   wx.previewImage({
-     urls:this.data.imgs,
-     current:current,
-     success:function(e){
-       console.log('预览成功');
-     }
-   });
- },
-  complete: function () {
-    // complete  
-    if (imgs.length == 3) {
-      opacity = 0;
-    }    
-  },
->>>>>>> bc804ba91df35f9f2feb6e8e8333792ba2a5c869
   /**
    * 生命周期函数--监听页面加载
    */

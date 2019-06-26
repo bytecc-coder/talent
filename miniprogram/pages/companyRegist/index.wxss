@@ -86,6 +86,7 @@ p{
   width: 100rpx;
   height: 100rpx;
   display: flex;
+
   justify-content: center;
   align-items: center;
 }

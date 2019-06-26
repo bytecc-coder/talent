@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 
-=======
->>>>>>> bc804ba91df35f9f2feb6e8e8333792ba2a5c869
 <div>
     <van-cell-group>
       <van-field
@@ -46,44 +43,8 @@
         placeholder="请输入薪资范围"
         bind:click-icon="onClickIcon"
       />
-      <van-field
-        value="{{ postname }}"
-        required
-        clearable
-        label="公司地址"
-        placeholder="请输入公司地址（如：常州市-金坛区）"
-        bind:click-icon="onClickIcon"
-      />
-      <van-field
-        value="{{ message }}"
-        label="岗位要求"
-        required
-        type="textarea"
-        placeholder="请输入岗位要求"
-        autosize
-        border="{{ false }}"
-      />
-      <van-field
-        value="{{ message }}"
-        label="加分项"
-        type="textarea"
-        placeholder="请输入加分项"
-        autosize
-        border="{{ false }}"
-      />
-      <view class="fuli">员工福利（最多选三项）</view>
-      <van-checkbox-group value="{{ result }}" bind:change="onChange" max="{{ 3 }}">
-        <van-checkbox
-          wx:for="{{ list }}"
-          wx:key="index"
-          name="{{ item }}"
-          checked-color="#36a8fe"
-          value="{{ item }}"
-        >
-        {{ item }}
-        </van-checkbox>
-      </van-checkbox-group>
-      <button>发布</button>
+       
+
     </van-cell-group>
 </div>
 

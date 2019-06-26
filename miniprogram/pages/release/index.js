@@ -5,12 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    list: ['五险一金', '绩效资金', '免费住宿','岗位晋升','带薪年假','交通补助']
-  },
-  onChange(event) {
-    this.setData({
-      result: event.detail
-    });
+
   },
 
   /**
