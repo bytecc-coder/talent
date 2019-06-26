@@ -1,0 +1,11 @@
+<!--pages/aboutus/index.wxml-->
+<div class="topimg">
+  <image src="/images/aboutus/topimg.jpg"></image>
+</div>
+
+<div class="title">
+  <p>关于我们</p>
+</div>
+<div class="content">
+  <p>我们是一个团队</p>
+</div>

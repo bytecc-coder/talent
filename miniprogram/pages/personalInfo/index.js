@@ -1,9 +1,18 @@
-// pages/personalRegist/index.js
+// pages/personalInfo/index.js
 Page({
+
+  /**
+   * 页面的初始数据
+   */
   data: {
-   
+
   },
- 
+
+  personalRegist: function () {
+    wx.navigateTo({
+      url: '/pages/personalRegist/index',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

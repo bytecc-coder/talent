@@ -1,15 +1,31 @@
 <!--index.wxml-->
 
-<image class="top_background" src="/images/more/background.png"></image>
+<image class="top_background" src="/images/more/background.jpg"></image>
 <div class="top_Img">
   <image src="/images/personal/thumb.jpg"></image>
 </div>
 
 <div class="infos">
   <ul>
-    <li>
+    <li bindtap="companyinfo">
       <div class="infos_left">
-        <p>消息通知</p>
+        <p>公司信息</p>
+      </div>
+      <div class="infos_right">
+        <image src="/images/personal/yjt.png"></image>
+      </div>
+    </li>
+    <li bindtap="personalinfo">
+      <div class="infos_left">
+        <p>个人信息</p>
+      </div>
+      <div class="infos_right">
+        <image src="/images/personal/yjt.png"></image>
+      </div>
+    </li>
+     <li bindtap="myjob">
+      <div class="infos_left">
+        <p>我的招聘信息</p>
       </div>
       <div class="infos_right">
         <image src="/images/personal/yjt.png"></image>
@@ -23,33 +39,9 @@
         <image src="/images/personal/yjt.png"></image>
       </div>
     </li>
-    <li>
+    <li bindtap="aboutus">
       <div class="infos_left">
         <p>关于我们</p>
-      </div>
-      <div class="infos_right">
-        <image src="/images/personal/yjt.png"></image>
-      </div>
-    </li>
-    <li bindtap="companyRegist">
-      <div class="infos_left">
-        <p>公司信息完善</p>
-      </div>
-      <div class="infos_right">
-        <image src="/images/personal/yjt.png"></image>
-      </div>
-    </li>
-    <li bindtap="personalRegist">
-      <div class="infos_left">
-        <p>个人信息完善</p>
-      </div>
-      <div class="infos_right">
-        <image src="/images/personal/yjt.png"></image>
-      </div>
-    </li>
-     <li bindtap="myjob">
-      <div class="infos_left">
-        <p>我的招聘信息</p>
       </div>
       <div class="infos_right">
         <image src="/images/personal/yjt.png"></image>

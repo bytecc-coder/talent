@@ -1,9 +1,21 @@
-// pages/personalRegist/index.js
+// pages/companyInfo/index.js
 Page({
+
+  /**
+   * 页面的初始数据
+   */
   data: {
-   
+      companyName:[],
+      companyconName:[],
+      companyPhone:[],
+      imgs:[]
   },
- 
+
+  companyRegist: function () {
+    wx.navigateTo({
+      url: '/pages/companyRegist/index',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

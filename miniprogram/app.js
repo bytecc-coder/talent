@@ -12,5 +12,5 @@ App({
     }
 
     this.globalData = {}
-  }
+  }  
 })

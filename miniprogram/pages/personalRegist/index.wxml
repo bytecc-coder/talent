@@ -18,6 +18,21 @@
         <input type="text" name="phone" placeholder="请输入手机号码" placeholder-class="placeholderStyle"></input>
       </div>
     </li>
+    <li>
+      <p>请上传个人简历</p>
+    </li>
+    <li class="uploadfile">
+      <view class="uploadpart">
+        <image class="uploadimg" bindtap="uploadimg" src="/images/uploadimg/uploadimg.png"></image>
+      </view>
+      <view>
+        <view class="imgs">
+          <image class="fileimg" src='{{item}}' ></image>
+          <image class="fileimg" src='{{item}}' ></image>
+          <image class="fileimg" src='{{item}}' ></image>
+        </view>
+      </view>
+    </li>
      <li>
      <checkbox class="agree"></checkbox>
       <p>提交即同意<a>《常州市人才引育服务协议》</a></p>

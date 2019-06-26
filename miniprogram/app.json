@@ -1,14 +1,17 @@
 {
   "pages": [
     "pages/start/start",
-   "pages/welcome/index",
-   "pages/company/index",
-   "pages/personal/index",
-   "pages/recruit/index",
-   "pages/details/index",
-   "pages/release/index",
-   "pages/companyRegist/index",
-   "pages/personalRegist/index"
+    "pages/welcome/index",
+    "pages/company/index",
+    "pages/personal/index",
+    "pages/recruit/index",
+    "pages/details/index",
+    "pages/release/index",
+    "pages/companyRegist/index",
+    "pages/personalRegist/index",
+    "pages/aboutus/index",
+    "pages/personalInfo/index",
+    "pages/companyInfo/index"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

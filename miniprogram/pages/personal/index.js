@@ -14,16 +14,21 @@ myjob:function(){
   })
 },
 
-
-companyRegist:function(){
+aboutus:function(){
   wx.navigateTo({
-    url: '/pages/companyRegist/index',
+    url: '/pages/aboutus/index',
   })
 },
 
-personalRegist: function () {
+companyinfo:function(){
   wx.navigateTo({
-    url: '/pages/personalRegist/index',
+    url: '/pages/companyInfo/index',
+  })
+},
+
+personalinfo: function () {
+  wx.navigateTo({
+    url: '/pages/personalInfo/index',
   })
 },
 
