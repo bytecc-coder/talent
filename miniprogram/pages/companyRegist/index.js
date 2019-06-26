@@ -7,20 +7,26 @@ Page({
    */
   data: {
     imgs:[],
+    opacity: 1
   },
  
  chooseImg:function(){
+   var imgs = this.data.imgs;
+   var opacity = this.data.opacity;
    var _this = this;
+   if(imgs.length==4){
+     return;
+   }
    wx.chooseImage({
-     count:3,
+     count:4-imgs.length,
      sizeType:['original','compressed'],
      sourceType: ['album', 'camera'],
      success: function(res) {
-       var tempFilePaths=res.tempFilePaths;
+      var tempFilePaths=res.tempFilePaths;
+       imgs = imgs.concat(tempFilePaths);
        _this.setData({
-        imgs:tempFilePaths
+        imgs:imgs
        });
-       console.log(tempFilePaths)
      },
    })
  },
@@ -35,6 +41,12 @@ Page({
      }
    });
  },
+  complete: function () {
+    // complete  
+    if (imgs.length == 3) {
+      opacity = 0;
+    }    
+  },
   /**
    * 生命周期函数--监听页面加载
    */

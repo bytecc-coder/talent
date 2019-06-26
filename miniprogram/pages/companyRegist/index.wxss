@@ -86,7 +86,6 @@ p{
   width: 100rpx;
   height: 100rpx;
   display: flex;
-
   justify-content: center;
   align-items: center;
 }
@@ -98,12 +97,16 @@ p{
   left: 0;
 }
 .imgs{
+  width: 100%;
   display: flex;
+  flex-direction:row;
+  flex-wrap: nowrap;
   justify-content:space-around;
   align-items: center;
+  overflow: hidden;
 }
 .fileimg{
-  display: block;
+  display:inline-block;
   width: 100rpx;
   height: 100rpx;
   margin: 0 20rpx;
