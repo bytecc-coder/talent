@@ -146,7 +146,7 @@ page{
   align-items: stretch;
   animation: bd-rise 2s cubic-bezier(0.23,1,0.32,1) .75s forwards;
   opacity: 0;
-  padding: 40% 30%;
+  padding: 40% 30% 0;
 }
 @keyframes bd-rise{
   from {opacity: 0; transform: translate3d(0,60rpx,0); }
@@ -172,9 +172,8 @@ page{
   font-size: 28rpx;
   color: #999;
   position: fixed;
-  bottom: 0;
+  bottom: 10rpx;
   left: 0;
   right: 0;
-  padding:60rpx 30rpx;
   text-align: center;
 }

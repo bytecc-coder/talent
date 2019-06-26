@@ -1,1 +1,34 @@
 /* pages/release/index.wxss */
+.van-checkbox__label{
+  line-height: 40rpx;
+}
+van-checkbox-group{
+  padding: 10rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 28rpx!important;
+  color: #333;
+}
+van-checkbox{
+  display: block;
+  margin:10rpx 10rpx;
+}
+.fuli{
+  font-size: 28rpx;
+  color: #333;
+  margin-left:28rpx;
+}
+button{
+  display: block;
+  color: #ffffff;
+  font-size: 30rpx;
+  background: #36a8fe;
+  border-top-right-radius: 6rpx;
+  border-bottom-left-radius: 6rpx;
+  border-top-left-radius: 6rpx;
+  border-bottom-right-radius: 6rpx;
+  border: 0;
+  margin: 20rpx;
+}

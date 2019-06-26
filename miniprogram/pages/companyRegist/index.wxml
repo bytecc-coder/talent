@@ -30,6 +30,7 @@
       <p>请上传公司相关执照照片</p>
     </li>
     <li class="uploadfile">
+<<<<<<< HEAD
      <view class="uploadpart">
          <image class="uploadimg" bindtap="chooseImg" src="/images/uploadimg/uploadimg.png" style="opacity:{{opacity}}" ></image>
       </view>
@@ -39,6 +40,14 @@
           <image class="delbtn" src ="/images/uploadimg/delbtn.png"></image>
           <image class="fileimg" src='{{item}}' bindtap="previewImg"  ></image>
         </view>
+=======
+      <view class="uploadpart">
+        <image class="uploadimg" bindtap="chooseImg" src="/images/uploadimg/uploadimg.png" style="opacity:{{opacity}}" ></image>
+      </view>
+      <view>
+        <view class="imgs">
+          <image class="fileimg" src='{{item}}' bindtap="previewImg"  wx:for="{{imgs}}" wx:for-key="item" wx:for-index="id"></image>
+>>>>>>> bc804ba91df35f9f2feb6e8e8333792ba2a5c869
         </view>
       </view>
     </li>
