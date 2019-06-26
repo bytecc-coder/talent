@@ -4,6 +4,5 @@
     "van-row": "vant-weapp/dist/row/index",
     "van-col": "vant-weapp/dist/col/index",
     "van-panel": "vant-weapp/dist/panel/index"
-  
   }
 }
