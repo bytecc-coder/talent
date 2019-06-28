@@ -1,6 +1,6 @@
 <!--pages/aboutus/index.wxml-->
 <div class="topimg">
-  <image src="/images/aboutus/topimg.jpg"></image>
+  <image src="/images/aboutus/topimg.png"></image>
 </div>
 
 <div class="title">

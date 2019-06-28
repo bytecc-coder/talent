@@ -22,14 +22,15 @@
       <p>请上传个人简历</p>
     </li>
     <li class="uploadfile">
-      <view class="uploadpart">
-        <image class="uploadimg" bindtap="uploadimg" src="/images/uploadimg/uploadimg.png"></image>
+     <view class="uploadpart">
+         <image class="uploadimg" bindtap="chooseImg" src="/images/uploadimg/uploadimg.png" style="opacity:{{opacity}}" ></image>
       </view>
       <view>
-        <view class="imgs">
-          <image class="fileimg" src='{{item}}' ></image>
-          <image class="fileimg" src='{{item}}' ></image>
-          <image class="fileimg" src='{{item}}' ></image>
+       <view class="imgs">
+        <view wx:for="{{imgs}}" wx:for-item="item" wx:key="*this" class="imgitem">
+          <image data-index="{{index}}" catchtap="deleteImg" bindtap="deleteImg" class="delbtn" src ="/images/uploadimg/delbtn.png"></image>
+          <image class="fileimg" src='{{item}}' data-index="{{index}}" mode="aspectFill" bindtap="previewImg"  ></image>
+        </view>
         </view>
       </view>
     </li>

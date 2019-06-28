@@ -1,6 +1,6 @@
 <!--index.wxml-->
 
-<image class="top_background" src="/images/more/background.jpg"></image>
+<image class="top_background" src="/images/more/background.png"></image>
 <div class="top_Img">
   <image src="/images/personal/thumb.jpg"></image>
 </div>

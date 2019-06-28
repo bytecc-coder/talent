@@ -35,9 +35,9 @@
       </view>
       <view>
        <view class="imgs">
-        <view wx:for="{{imgs}}" wx:for-key="item" wx:for-index="id" class="imgitem">
-          <image class="delbtn" src ="/images/uploadimg/delbtn.png"></image>
-          <image class="fileimg" src='{{item}}' bindtap="previewImg"  ></image>
+        <view wx:for="{{imgs}}" wx:for-item="item" wx:key="*this" class="imgitem">
+          <image data-index="{{index}}" catchtap="deleteImg" bindtap="deleteImg" class="delbtn" src ="/images/uploadimg/delbtn.png"></image>
+          <image class="fileimg" src='{{item}}' data-index="{{index}}" mode="aspectFill" bindtap="previewImg"  ></image>
         </view>
         </view>
       </view>

@@ -32,20 +32,47 @@ Page({
   },
 
   previewImg: function (e) {
-    var current = e.target.dataset.src;
+    //获取当前图片的下标
+    var index = e.currentTarget.dataset.index;
+    //所有图片
+    var imgs = this.data.imgs;
+
     wx.previewImage({
-      urls: this.data.imgs,
-      current: current,
-      success: function (e) {
-        console.log('预览成功');
-      }
-    });
+      //当前显示图片
+      current: imgs[index],
+      //所有图片
+      urls: imgs
+    })
   },
   complete: function () {
     // complete  
     if (imgs.length == 3) {
       opacity = 0;
     }
+  },
+  //删除图片
+
+  deleteImg: function (e) {
+    var that = this;
+    var imgs = this.data.imgs;
+    var index = e.currentTarget.dataset.index;//获取当前图片下标
+
+    wx.showModal({
+      title: '提示',
+      content: '确定要删除此图片吗？',
+      success: function (res) {
+        if (res.confirm) {
+          console.log('点击确定了');
+          imgs.splice(index, 1);
+        } else if (res.cancel) {
+          console.log('点击取消了');
+          return false;
+        }
+        that.setData({
+          imgs: imgs
+        });
+      }
+    })
   },
   /**
    * 生命周期函数--监听页面加载
