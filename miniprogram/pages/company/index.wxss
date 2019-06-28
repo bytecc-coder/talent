@@ -185,7 +185,9 @@ p{
 .btn{
   border-radius: 20rpx;
 }
-
+.van-button--info{
+    border: 0!important;
+}
 .img_tabs{
   width: 100%;
   margin-top: 50rpx;

@@ -1,0 +1,48 @@
+/* pages/personlist/index.wxss */
+page{
+   background-color: #F4F4F4;
+  list-style: none;
+}
+.person{
+  display: block;
+  padding: 20rpx 20rpx;
+  background: #ffffff;
+  margin: 0 10rpx 20rpx 10rpx;
+  border-top-right-radius: 10rpx;
+  border-bottom-left-radius: 10rpx;
+  border-top-left-radius: 10rpx;
+  border-bottom-right-radius: 10rpx;
+}
+.mess,.con{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+}
+.mess{
+  justify-content: space-between;
+  margin-bottom:30rpx; 
+  color: #333333;
+}
+.con{
+  justify-content:flex-end;
+}
+.con>button{
+  width: 20%;
+  color: #ffffff;
+  font-size: 26rpx;
+  border-top-right-radius: 8rpx;
+  border-bottom-left-radius: 8rpx;
+  border-top-left-radius: 8rpx;
+  border-bottom-right-radius: 8rpx;
+  border: 0;
+  margin-right:0rpx; 
+  margin-left:30rpx; 
+  padding: 0!important;
+}
+.con>button:first-child{
+  background: #36a8fe; 
+}
+.con>button:last-child{
+  background: red; 
+}

@@ -73,3 +73,52 @@ p{
   width: 80rpx;
   height: 80rpx;
 }
+ .regist_tab .uploadfile{
+  width: 100%;
+  height: 200rpx;
+  justify-content: flex-start;
+}
+
+.uploadpart{
+  position: relative;
+  width: 100rpx;
+  height: 100rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.uploadimg{
+  width: 100rpx;
+  height: 100rpx;
+}
+.imgs{
+  width: 100%;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: nowrap;
+  justify-content:space-around;
+  align-items: center;
+  overflow: hidden;
+}
+.fileimg{
+  display:inline-block;
+  width: 100rpx;
+  height: 100rpx;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.imgitem{
+  position: relative;
+  width: 115rpx;
+  height: 115rpx;
+  margin: 0 20rpx;
+}
+.delbtn{
+  position: absolute;
+  width: 30rpx;
+  height: 30rpx;
+  right: 0;
+  top: 0;
+  z-index: 20;
+}

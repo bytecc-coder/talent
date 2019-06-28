@@ -1,5 +1,4 @@
-//index.js
-// pages/recruit/index.js
+// pages/personalInfo/index.js
 Page({
 
   /**
@@ -8,30 +7,12 @@ Page({
   data: {
 
   },
-myjob:function(){
-  wx.navigateTo({
-    url: '/pages/recruit/index',
-  })
-},
 
-aboutus:function(){
-  wx.navigateTo({
-    url: '/pages/aboutus/index',
-  })
-},
-
-companyinfo:function(){
-  wx.navigateTo({
-    url: '/pages/companyInfo/index',
-  })
-},
-
-personalinfo: function () {
-  wx.navigateTo({
-    url: '/pages/personalInfo/index',
-  })
-},
-
+  personalRegist: function () {
+    wx.navigateTo({
+      url: '/pages/personalRegist/index',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
@@ -71,7 +52,12 @@ personalinfo: function () {
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh: function () {
-
+    wx.showNavigationBarLoading()
+    this.onLoad()
+    setTimeout(() => {
+      wx.hideNavigationBarLoading()
+      wx.stopPullDownRefresh()
+    }, 1000);
   },
 
   /**

@@ -8,7 +8,7 @@ van-checkbox-group{
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  font-size: 28rpx!important;
+  font-size: 30rpx!important;
   color: #333;
 }
 van-checkbox{

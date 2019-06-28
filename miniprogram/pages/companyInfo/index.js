@@ -1,37 +1,21 @@
-//index.js
-// pages/recruit/index.js
+// pages/companyInfo/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+      companyName:[],
+      companyconName:[],
+      companyPhone:[],
+      imgs:[]
   },
-myjob:function(){
-  wx.navigateTo({
-    url: '/pages/recruit/index',
-  })
-},
 
-aboutus:function(){
-  wx.navigateTo({
-    url: '/pages/aboutus/index',
-  })
-},
-
-companyinfo:function(){
-  wx.navigateTo({
-    url: '/pages/companyInfo/index',
-  })
-},
-
-personalinfo: function () {
-  wx.navigateTo({
-    url: '/pages/personalInfo/index',
-  })
-},
-
+  companyRegist: function () {
+    wx.navigateTo({
+      url: '/pages/companyRegist/index',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

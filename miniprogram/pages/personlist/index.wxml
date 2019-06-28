@@ -1,0 +1,30 @@
+<div class="person">
+  <div class="mess">
+      <i>张三</i>
+      <span>18888888888</span>
+  </div>
+  <div class="con">
+      <button bindtap="see">查看简历</button>
+      <button bindtap="yes">确认入职</button>
+  </div>
+</div>
+<div class="person">
+  <div class="mess">
+      <i>张三</i>
+      <span>18888888888</span>
+  </div>
+  <div class="con">
+      <button>查看简历</button>
+      <button>确认入职</button>
+  </div>
+</div>
+<div class="person">
+  <div class="mess">
+      <i>张三</i>
+      <span>18888888888</span>
+  </div>
+  <div class="con">
+      <button>查看简历</button>
+      <button>确认入职</button>
+  </div>
+</div>

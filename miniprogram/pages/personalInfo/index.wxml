@@ -1,0 +1,49 @@
+<!--pages/personalInfo/index.wxml-->
+<div class="regist_tab">
+
+  <ul>
+    
+     <li>
+      <div class="item">
+        <p>联系人:</p>
+      </div>
+      <div class="input_tab">
+        <p>测试数据</p>
+      </div>
+    </li>
+     <li>
+      <div class="item">
+        <p>手机号码:</p>
+      </div>
+      <div class="input_tab">
+        <p>测试数据</p>
+      </div>
+    </li>
+    <li>
+      <p>个人简历照片</p>
+    </li>
+    <li class="uploadfile">
+      <view>
+        <view class="imgs" wx:for="{{imgs}}" wx:for-key="item" wx:for-index="id">
+          <image class="fileimg" src='{{item}}' bindtap="previewImg"></image>
+        </view>
+        <view class="imgs" wx:for="{{imgs}}" wx:for-key="item" wx:for-index="id">
+          <image class="fileimg" src='{{item}}' bindtap="previewImg"></image>
+        </view>
+        <view class="imgs" wx:for="{{imgs}}" wx:for-key="item" wx:for-index="id">
+          <image class="fileimg" src='{{item}}' bindtap="previewImg"></image>
+        </view>
+      </view>
+    </li>
+     <li>
+     <div class="submit">
+        <button>修改</button>
+      </div>
+    </li>
+    <li bindtap="personalRegist">
+      <div class="submit">
+        <button>完善</button>
+      </div>
+    </li>
+  </ul>
+</div>
